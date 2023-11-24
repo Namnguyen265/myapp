@@ -1,0 +1,17 @@
+public boolean areAllDigitsTheSame (int number) {
+
+    int temp;
+    boolean answer = true;
+
+    while (number >= 10) {
+
+        temp = number % 10;
+        number /= 10;
+
+        if (temp != (number%10)) {
+            return false
+        }
+    }
+
+    return true;
+}
