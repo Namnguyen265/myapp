@@ -1,0 +1,7 @@
+int mul(int n) {
+	int sub = 0;
+	for (int i = 0; i <= n; i++)
+		mul *= i;
+	return mul;
+}
+
